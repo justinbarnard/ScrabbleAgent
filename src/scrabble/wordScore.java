@@ -17,7 +17,7 @@ public class wordScore {
 		final Set<String> zeroPoint = new HashSet<String>(Arrays.asList("a","b","c","d","e","f","g","h","i","j",
 																 "k","l","m","n","o","p","q","r","s","t",
 																 "u","v","w","x","y","z"));
-		String word ="QUZTiLP";
+		String word ="ABCDEF?";
 		int wordScore = 0;
 		for(int c=0; c < word.length(); c++) {
 		
