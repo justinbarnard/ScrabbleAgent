@@ -1,3 +1,7 @@
+/**
+ * Deprecated, Code Folded into ScrabbleWord
+ */
+
 package scrabble;
 import java.util.Arrays;
 import java.util.HashSet;
