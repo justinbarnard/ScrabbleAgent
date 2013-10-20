@@ -43,7 +43,6 @@ public class ScrabbleWord implements Comparable<ScrabbleWord> {
 		this.score = _score;
 	}
 
-
 	/*Main Method for testing Execution
 	public static void main(String[] args) {
 	}
@@ -137,8 +136,6 @@ public class ScrabbleWord implements Comparable<ScrabbleWord> {
 		else if(this.word.length() == 4) {
 			this.setBoardPostion(4, 7);
 		}
-		else
-			System.out.println("Pass");
 		
 	}
 	public static ScrabbleWord letterScore(ScrabbleWord _word, int c) {
