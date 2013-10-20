@@ -9,6 +9,7 @@ public class Trie {
 
 	public Trie(List<String> _Dictionary) {
 		int i = 0;
+		//Keep User from Panicking
 		System.out.print("Loading ");
 		for (Iterator<String> it = _Dictionary.iterator(); it.hasNext(); i++) {
 			String s = it.next();
@@ -68,7 +69,7 @@ public class Trie {
 	}
 }
 
-
+//Begin Node Class Definition
 class Node {
 
 	private final String value;
