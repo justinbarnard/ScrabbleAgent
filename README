@@ -1,3 +1,5 @@
 Simple Scrabble Agent written in Java using a TRIE.
 
 Homework for Intro to AI
+
+*Bug* final score calculations are off requires further checking
